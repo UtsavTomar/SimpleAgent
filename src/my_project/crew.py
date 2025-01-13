@@ -32,12 +32,3 @@ class SimpleAgentCrew:
             process=Process.sequential,  # Tasks will run sequentially
             verbose=True,
         )
-    
-class Crew:
-    def __init__(self):
-        self.agent = SimpleAgent()
-
-    def kickoff(self, inputs):
-        print("Starting the agent...")
-        task_result = self.agent.process_task("process_text_task", inputs)
-        print("Task Result:", task_result)
