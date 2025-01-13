@@ -1,0 +1,5 @@
+process_text_task:
+  description: >
+    Process the provided input text to extract key insights.
+  expected_output: >
+    A summarized version of the input text highlighting key points.
